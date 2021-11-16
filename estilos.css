@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Fruktur&display=swap');
+body {
+    background-color: #f1e2eb;
+    font-family: 'Fruktur', cursive;
+    justify-content: center;
+    display: flex;
+  }
+  * {
+    padding: 0px;
+    margin: 0px;
+    border: 0px;
+  }
+  .main-container {
+display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    padding-top: 3em;
+  }
+  h1 {
+    font-size: 90px;
+    color: #cbb7d2;
+    text-shadow: 5px 5px #c0d1df;
+  }
+
+  button {
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+font-weight: bolder;
+  font-size: 20px;
+  color: #f3dde3;
+  border-radius: 5px;
+  width: 20%;
+  height: 30px;
+  cursor: pointer;
+  background-color: #a7a8c6;
+  margin: 4px;
+}
